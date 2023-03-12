@@ -1,0 +1,27 @@
+.imagelogo1{
+    margin-top: 15%;
+    /* background-image: url(/assets/images/logo.jpg);  */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* opacity: 0.3; */
+    height: 300px;
+    width: auto;
+    /* margin-left: 98%;  */
+  
+  position:relative;
+ padding-left: 70px;
+    
+   }
+   .imageplet{
+    margin-top: 2%;
+    /* background-image: url(/assets/images/logo.jpg);  */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* opacity: 0.3; */
+    height: 200px;
+    width: auto;
+     
+  
+  position:relative;
+    
+   }

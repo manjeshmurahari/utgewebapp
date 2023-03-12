@@ -1,0 +1,93 @@
+/* .dev1{
+   margin-left: 20%;
+    background: #f0cfcf;
+    width: 100%;
+    height: 20%;
+    max-height: 20%;
+    /* margin-top: 2%;
+    margin-bottom: 1%; 
+    color: white;
+    align-items: center;
+    } */
+
+    .container {
+      position: relative;
+      text-align: left;
+      /* color: rgb(228, 14, 14); */
+      width: 100%;
+  background-color: black;
+  color: white;
+      
+    }
+    .centered {
+      position: absolute;
+      /* top: 57%; */
+      /* left: 35%; */
+      transform: translate(-0%, -6%);
+      color: rgb(25, 7, 222);
+      font-size: 17px;
+      color: rgb(13, 3, 94);
+      font-family: cursive;
+      /* background-color: rgb(238, 240, 235); */
+    }
+    
+    
+.flip-box {
+  background-color: transparent;
+  width: 90%;
+  height: 80%;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+/* 
+.flip-box-front {
+   background-color: #bbb; 
+  color: black;
+} */
+
+.flip-box-back {
+  /* background-color: #555; */
+  color: white;
+  transform: rotateY(180deg);
+  margin-top: 10%;
+  width: 90%;
+  height: 80%;
+}
+
+
+.mhover:hover{
+  background-color: darkslategray;
+  color: white;
+}
+
+.zoom{
+
+  padding: 10px;
+  transition:transform .2s;
+  width: auto;
+  height: auto;
+}
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }

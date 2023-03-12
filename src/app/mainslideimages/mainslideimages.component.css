@@ -1,0 +1,192 @@
+
+#slideset1 {height: 10em; position: relative}
+
+#slideset1 > * {visibility: hidden; position: absolute;
+  top: 0; left: 0; animation: 20s autoplay1 infinite}
+
+  @keyframes autoplay1 {
+    0% {visibility: visible}
+    33.33% {visibility: hidden}
+  }
+
+#slideset1 > *:nth-child(1) {animation-delay: 0s}
+#slideset1 > *:nth-child(2) {animation-delay: 4s}
+#slideset1 > *:nth-child(3) {animation-delay: 8s}
+#slideset1 > *:nth-child(4) {animation-delay: 12s}
+#slideset1 > *:nth-child(5) {animation-delay: 16s}
+
+.img-size{
+   margin-left:0%;
+    max-width: 100%;
+    max-height: auto;
+ }
+ .dev1{
+  margin-top:  58%;
+ 
+ 
+  
+  }
+ .bottom-left {
+  position: absolute;
+    top: 76.6%; 
+   vertical-align: middle;
+  text-align: center;
+  font-family: cursive;
+   font-weight: 20px; 
+  font-size: small;
+  color: rgb(14, 14, 14);
+  width: 100%;
+  height: 100%;
+
+}
+.framesize{
+  height: 20px;
+}
+mat-grid-tile-header{
+  
+  font-family: cursive;
+  font-size: 15px;
+}
+mat-grid-tile
+{
+  /* margin-top: 1%; */
+  /* padding-top: 2%; */
+  font-size: 13px;
+  font-family: cursive;
+  
+}
+
+.bottom-content {
+  position: absolute;
+   top: 90%; 
+   vertical-align: middle;
+  text-align: center;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-weight: 20px; */
+  font-size: small;
+  /* color: rgb(14, 14, 14); */
+  /* width: auto;
+  height: auto; */
+}
+.zoom {
+padding: 10%;
+transition: transform .2s; /* Animation */
+width: 200px;
+height: 100px;
+/* background-color:red; */
+}  
+.shadowBox {
+border: 5px solid;
+padding: 4%;
+box-shadow: 5px 10px;
+
+}
+.zoom:hover {
+transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+/* background-color: green; */
+ }
+ /* .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: orange;
+} */
+.mainbox{
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+.column {
+float: left;
+width: auto; 
+margin-bottom: 20px;
+margin-left: 40px;;
+padding: 0 2px;
+/* background-color:white */
+}
+.container>div{
+flex: 0 50%;
+box-sizing: border-box;
+
+
+}
+.div1{
+   /* background-color: red;  */
+  width: 100%;
+  height: 400%; 
+   
+}
+
+#myDIV {
+  /* width: 300px;
+  height: 200px; */
+  border: 5px solid coral;
+  animation: mymove 5s infinite;
+  background-color:yellow
+}
+@keyframes mymove {
+  50% {border-color: lightblue;}
+}
+
+.container {
+  position: relative;
+  text-align: left;
+  /* color: rgb(228, 14, 14); */
+  width: 100%;
+
+color: white;
+}
+
+
+/* p {
+  border-bottom: 2px solid #FDDF7F;
+   border-left: 10px solid #FDDF7F;
+  
+  padding-left: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 7%;
+  font-family: Cursive;
+  font-size: large;
+  color: white;
+ 
+} */
+.txtcenter
+{
+  text-align: center;
+}
+
+.color{
+  font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+  background: linear-gradient(to right, #000066 0%, #cc00cc 100%);
+  color: white;
+
+} 
+.color1{
+  font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+  color: white;
+  overflow-wrap: break-word;
+  height: auto;
+  overflow: visible;
+  /* box-sizing: border-box; */
+  width: 420px;
+  height: 354px;
+  /* border: 2px solid; */
+  /* background-color: red; */
+ overflow-x: scroll;
+ padding: 1px;
+}
+
+#gradient {
+  margin-top: 2%;
+  padding-bottom: 0.5%;
+  padding-left: 1%;
+  height: 23px;
+  font-size: 20px;
+  vertical-align: middle;
+  text-align: left;
+  max-width: 58%;
+  margin-left: 2%;
+  color: white;
+  
+  background: linear-gradient(to right, rgb(1, 7, 31), rgba(255, 122, 89,0));
+}

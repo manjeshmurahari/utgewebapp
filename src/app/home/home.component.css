@@ -1,0 +1,105 @@
+.para{
+    font-size: 14px;
+    line-height: 40px;
+    font-size: larger;
+    color: blueviolet;
+    font-family: Cursive;
+     }
+.bannerTxt{
+    position: relative;
+    top: 10%;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    /* background-image: url(/assets/images/logo.jpg); */
+     }
+     .imagelogo1{
+      margin-top: 10%;
+      /* background-image: url(/assets/images/logo.jpg);  */
+      background-position: right;
+      background-repeat: no-repeat;
+      /* opacity: 0.3; */
+      height: 35%;
+      width: 25%;
+      margin-left: 98%; 
+    margin-top: -5%;
+    position:relative;
+      
+     }
+     .demo-wrap{
+      /* overflow: hidden; */
+      position: fixed;
+      font-size: 15px;
+      /* margin-top: 0.5%; */
+     }
+.bottom-left {
+        position: absolute;
+      top: 70%;
+         vertical-align: middle;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        color: rgb(14, 14, 14);
+}
+.zoom {
+    padding: 10%;
+    transition: transform .2s; /* Animation */
+    width: 450px;
+    height: 300px;
+    }  
+.shadowBox {
+    border: 5px solid;
+    padding: 4%;
+    box-shadow: 5px 10px;
+   }
+ .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+.mainbox{
+    box-sizing: border-box;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+.column {
+    float: left;
+     width: auto; 
+    margin-bottom: 20px;
+    margin-left: 40px;;
+    padding: 0 2px;
+  }
+  .container>div{
+    flex: 0 50%;
+    box-sizing: border-box;
+  }
+.weeklybanner{
+  margin-top: 8%;
+  max-width: 100%;
+     margin-left: 0.2%;
+}
+.img-size{
+  
+     max-width: 80%;
+     margin-left: 0.2%;
+  
+  
+}
+
+  #slideset1 {height: 10em; position: relative}
+
+  #slideset1 > * {visibility: hidden; position: absolute;
+    top: 0; left: 0; animation: 20s autoplay1 infinite}
+
+    @keyframes autoplay1 {
+      0% {visibility: visible}
+      33.33% {visibility: hidden}
+    }
+
+#slideset1 > *:nth-child(1) {animation-delay: 0s}
+#slideset1 > *:nth-child(2) {animation-delay: 4s}
+#slideset1 > *:nth-child(3) {animation-delay: 8s}
+#slideset1 > *:nth-child(4) {animation-delay: 12s}
+#slideset1 > *:nth-child(5) {animation-delay: 16s}
+
+/*  */

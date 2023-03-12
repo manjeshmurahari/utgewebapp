@@ -1,0 +1,97 @@
+<!-- <div >
+    <mat-grid-list cols="3" rowHeight="170px" gutterSize="5px"  style="width: 99.5%;" >
+        <mat-grid-tile *ngFor="let tile of tiles"
+        [colspan]="tile.cols"
+        [rowspan]="tile.rows"
+        [style.border]="tile.border">
+        <img src="./assets/Dotnettricks.png">
+        <mat-grid-tile-header>
+            <h3>{{tile.text}}</h3>
+        </mat-grid-tile-header>
+        
+        </mat-grid-tile>
+        </mat-grid-list>
+
+</div> -->
+
+<div class="container">
+<mat-grid-list cols="3" rowHeight="300px" gutterSize="0px" 
+  style="width: 99.5%;background-color: #F7F7F7; " >
+    
+    
+<mat-grid-tile style=" border: '1px double white'">
+    
+<img src="/assets/images/logo.jpg"  style="width:80%; height: 90%;  " >
+</mat-grid-tile>
+
+<mat-grid-tile style="background-color: #F7F7F7; border: '1px double white'">
+    
+
+<!-- <img src="/assets/images/church.jpeg"  style="width:100%;height:100%; padding-top: 20px; " > -->
+<div class="centered"><h4><u>Our Address</u></h4>
+    <b>United Telugu Gospel Church,
+    <br>Main Hall 1,
+    <br>The Evangelical Church Center,
+    <br>P.O.Box:4006,<br> ABU DHABI,UAE
+<br> Phone: 0505093278 - 025595756</b>
+<div style="margin-top: 6%;">
+
+    <mat-grid-list cols="2" rowHeight="60px" gutterSize="0px"   >
+    
+    
+        <mat-grid-tile style=" border: '1px double white'">
+            
+            <h4><u >Follow Us  </u> </h4>
+        </mat-grid-tile>
+        <mat-grid-tile style=" border: '1px double white'">
+            
+            <a class="zoom" href="https://www.facebook.com/profile.php?id=100063552813759" 
+            target="_blank">
+            <img src="/assets/images/fbook.jpg" 
+            style="width:90%;height:auto;" ></a>
+            &nbsp;&nbsp;&nbsp;
+            <a  class="zoom" href="https://www.youtube.com/@ABUDHABITELUGUCHURCHUTGC/streams" 
+            target="_blank"><img src="/assets/images/youtube.jpg" 
+            style="width:90%;height: auto;" ></a>
+            </mat-grid-tile>
+            </mat-grid-list>
+        
+
+
+   
+    
+</div>
+    </div>
+
+
+
+
+
+</mat-grid-tile>
+<mat-grid-tile style=" background-color: #F7F7F7; border: '1px double white'" >
+   
+<div >
+    <a  class="mhover" mat-button  (click)="homepage()"><h5>Home</h5></a> 
+    <a   class="mhover" mat-button (click)="aboutus()"><h5>About Us</h5></a> 
+    <a  class="mhover" mat-button (click)="gallery()" ><h5>Gallery</h5></a> 
+    <a class="mhover" mat-button (click)="contactus()" ><h5>Contact Us</h5></a> 
+    <a  class="mhover" mat-button (click)="boteng()" ><h5>BOT Members</h5></a> 
+    <!-- <a mat-button><h5>Prayer Request</h5></a>  -->
+    
+</div>
+<div >
+    <img src="/assets/images/church.jpeg"  style="width:90%;height:100%; " >>   
+</div>
+
+
+
+
+
+
+</mat-grid-tile>
+    
+  </mat-grid-list></div>
+
+
+
+  

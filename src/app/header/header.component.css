@@ -1,0 +1,52 @@
+/* .spacer{
+    flex: 1.1 auto; 
+    padding: 20px;
+} */
+
+/* a {
+  padding: 10px 20px 15px 50px;
+  font-size: xx-small;
+   
+  }
+  .title{
+      padding: 20px 10px 15px 70px; 
+     padding: 4px; 
+     font-size: xx-small;
+     margin-left: 60px;  
+     text-align: center; 
+    color: white;
+    
+  }  */
+ 
+  /* h1{
+    font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+    text-align: center;
+} */
+  .sizetxt{
+    font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+.a {
+  /* padding: 10px 20px 15px 50px; */
+  /* font-size: xx-small; */
+  color: white;
+  flex: auto ;
+
+
+  }
+
+  .flexExpand {
+    flex: 1 1 auto;
+  }
+ .color{
+    font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+   
+    color: white;
+  } 
+  .mhover:hover{
+    background-color: rgb(70, 132, 248);
+    color: blue;
+  }
+  
